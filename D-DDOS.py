@@ -2,21 +2,22 @@
 import random
 from scapy.all import *
 	
-print('''
- ____                                    ____  ____
-|  _ \ _ __ __ _  __ _  ___  _ __       |  _ \|  _ \  ___  ___
-| | | | '__/ _` |/ _` |/ _ \| '_ \ _____| | | | | | |/ _ \/ __|
-| |_| | | | (_| | (_| | (_) | | | |_____| |_| | |_| | (_) \__ \
-|____/|_|  \__,_|\__, |\___/|_| |_|     |____/|____/ \___/|___/
-                 |___/
 
-by Mohamed Aly Sidi Mohamed
-             ''')
+print" ____ "                                   ____  ____       "
+print"|  _ \ _ __ __ _  __ _  ___  _ __       |  _ \|  _ \  ___  ___"
+print"| | | | '__/ _` |/ _` |/ _ \| '_ \ _____| | | | | | |/ _ \/ __|"
+print"| |_| | | | (_| | (_| | (_) | | | |_____| |_| | |_| | (_) \__ \"
+print"|____/|_|  \__,_|\__, |\___/|_| |_|     |____/|____/ \___/|___/"
+print"                  |___/"
+print"                        "
+print"by Mohamed Aly Sidi Mohamed"
+             
 
 
 print"-------------------------------------------"
-target_IP = input("Enter IP address of Target:| ")
+target_IP = input("Enter IP address of Target: ")
 print"--------------------------------------------"
+
 while True:
    a = str(random.randint(1,254))
    b = str(random.randint(1,254))
