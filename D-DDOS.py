@@ -1,8 +1,8 @@
 #Dragon-DDos
 import random
 from scapy.all import *
-	logo= (''' 
 	
+print('''
  ____                                    ____  ____
 |  _ \ _ __ __ _  __ _  ___  _ __       |  _ \|  _ \  ___  ___
 | | | | '__/ _` |/ _` |/ _ \| '_ \ _____| | | | | | |/ _ \/ __|
@@ -12,7 +12,7 @@ from scapy.all import *
 
 by Mohamed Aly Sidi Mohamed
              ''')
-print"logo"
+
 
 print"-------------------------------------------"
 target_IP = input("Enter IP address of Target:| ")
