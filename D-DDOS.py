@@ -15,7 +15,7 @@ print"by Mohamed Aly Sidi Mohamed"
 
 
 print"-------------------------------------------"
-target_IP = input("Enter IP address of Target: ")
+target_IP = raw_input("Enter IP address of Target: ")
 print"--------------------------------------------"
 
 while True:
